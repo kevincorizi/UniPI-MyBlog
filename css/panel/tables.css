@@ -1,0 +1,230 @@
+/*CSS per le tabelle del pannello di controllo*/
+
+table{
+	width: 1000px;
+	text-align: center;
+	border-spacing: 0;
+	margin-bottom: 10px;
+	display: table;
+	table-layout: fixed;
+	margin-top: 10px;
+}
+
+.tableHeader{
+	background-color: grey;
+	width: inherit;
+	height: 45px;
+	margin-bottom: 0px;
+	box-shadow: 0 2px 2px #aaa;
+	border-radius: 2px;
+	color: white;
+}
+
+.tableHeader > th > img{
+	width: 25px;
+	height: 25px;
+}
+
+.tableRow{
+	background-color: white;
+	display: block;
+	overflow: hidden;
+	box-shadow: 0 2px 2px #aaa;
+	border-radius: 2px;
+	margin-bottom: 5px;
+}
+
+.tableRow img{
+	height: 25px;
+	width: 24px;
+	margin: auto;
+}
+
+.tableRow > *{
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	font-size: 14px;
+}
+
+.tableRow:hover{
+	background-color: #F5F5F5;
+}
+
+.tableHeader > th, .tableRow > td{
+	width: 65px;
+	height: inherit;
+	display: block;
+	float: left;
+	padding:10px;
+}
+
+/*Stile dedicato alle tabelle di post*/
+
+.postTableHeader > th:first-child, .postRow > td:first-child{
+	width: 305px;
+	max-width: 305px;
+}
+
+.postTableHeader > th:first-child{
+	padding-top: 14px;
+}
+
+.postTableHeader > th:nth-child(2), .postRow > td:nth-child(2){
+	width: 160px;
+	max-width: 160px;
+}
+
+.postTableHeader > th:nth-child(2){
+	padding-top: 14px;
+}
+
+.allPostTableHeader > th:nth-child(3), .allPostRow > td:nth-child(3){
+	width: 150px;
+	max-width: 150px;
+}
+
+.allPostTableHeader > th:nth-child(3){
+	padding-top: 14px;
+}
+
+.allPostTableHeader > th:nth-child(7), .allPostRow > td:nth-child(7){
+	width: 190px;
+	max-width: 190px;
+}
+
+.yourPostTableHeader > th:nth-child(6), .yourPostRow > td:nth-child(6){
+	width: 290px;
+	max-width: 290px;
+}
+
+.yourPostTableHeader > th:nth-child(7), .yourPostRow > td:nth-child(7){
+	width: 50px;
+	max-width: 50px;
+}
+
+/*Stile dedicato alle tabelle di commenti*/
+
+.commentTableHeader th:first-child, .commentRow td:first-child{
+	width: 255px;
+	max-width: 255px;
+}
+
+.commentTableHeader th:first-child{
+	padding-top: 14px;
+}
+
+.commentTableHeader th:nth-child(2), .commentRow td:nth-child(2){
+	width: 250px;
+	max-width: 250px;
+}
+
+.commentTableHeader th:nth-child(2){
+	padding-top: 14px;
+}
+
+.commentTableHeader th:nth-child(3), .commentRow td:nth-child(3){
+	width: 130px;
+	max-width: 130px;
+}
+
+.commentTableHeader th:nth-child(3){
+	padding-top: 14px;
+}
+
+.commentTableHeader th:nth-child(4), .commentRow td:nth-child(4){
+	width: 170px;
+	max-width: 170px;
+}
+
+.commentTableHeader th:nth-child(4){
+	padding-top: 14px;
+}
+
+/*Stile dedicato alle tabelle di utenti*/
+
+.userTableHeader > th, .userRow > td{
+	width: 145px;
+	max-width: 145px;
+}
+
+.userTableHeader > th:first-child{
+	padding-top: 14px;
+}
+
+.userTableHeader > th:nth-child(2){
+	padding-top: 14px;
+}
+
+.userTableHeader > th:nth-child(3){
+	padding-top: 14px;
+}
+
+.userTableHeader > th:nth-child(4){
+	padding-top: 14px;
+}
+
+.userTableHeader > th:nth-child(5){
+	padding-top: 14px;
+}
+
+.userTableHeader > th:nth-child(4), .userRow > td:nth-child(4){
+	width: 220px;
+	max-width: 220px;
+}
+
+.userTableHeader > th:nth-child(5), .userRow > td:nth-child(5){
+	width: 150px;
+	max-width: 150px;
+}
+
+.userTableHeader > th:nth-child(6), .userRow > td:nth-child(6){
+	width: 65px;
+	max-width: 65px;
+}
+
+.userTableHeader > th:nth-child(7), .userRow > td:nth-child(7){
+	width: 65px;
+	max-width: 65px;
+}
+
+.userTableHeader > th:nth-child(8), .userRow > td:nth-child(8){
+	width: 65px;
+	max-width: 65px;
+}
+
+/*Stile del il pannello di ordinamento nei post e nei commenti*/
+
+.filterPanel{
+	height: 40px;
+	width: inherit;
+	margin-left: auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.filterPanel > form{
+	margin-top: 5px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.filterPanel > form *{
+	margin-right: 5px;
+}
+
+.filterPanel > form > div{
+	display: inline-block;
+	float: left;
+	margin-top: 5px;
+}
+
+.filterPanel > form > button{
+	float: left;
+	clear: none;
+	display: inline-block;
+	height: 30px;
+}

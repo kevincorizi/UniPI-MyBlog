@@ -1,0 +1,118 @@
+/*CSS per la pagina panel.php*/
+
+/*Intestazione della pagina*/
+
+header{
+	position: relative;
+	width:inherit;
+	text-align:center;
+	height:40px;
+	background-color: #212121;
+	z-index:999;
+	box-shadow:0 5px 5px #aaa;
+	min-width: 1000px;
+}
+
+/*Stile della barra di navigazione orizzontale*/
+
+ul{
+	list-style: none;
+}
+
+#toolbar{
+	position: relative;
+	left: auto;
+	right: auto;
+	width: 1000px;
+	height: inherit;
+	display: inline-block;
+}
+
+#logo{
+	position: relative;
+	display: inline-block;
+	height:inherit;
+	max-width: 500px;
+	float: left;
+	padding: 8px;
+}
+
+#logo > a{
+	text-decoration: none;
+	text-transform: uppercase;	
+	font-size: 20px;
+	color: white;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+}
+
+#menu{
+	height: inherit;
+	display: inline-block;
+	float: right;
+}
+
+.item{
+	display:inline-block;
+	float: left;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-top: 10px;
+	height: inherit;
+	width: auto;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.item:hover{
+	background-color: #424242;
+}
+
+.item:hover .submenu{
+	height: 50px;
+	display: block;
+	overflow: hidden;
+}
+
+.submenu{
+	transition:.1s;
+	top: 100%;
+	left: 0;
+	right: 0;
+	display: none;
+	position:absolute;
+	background-color: #616161;
+	overflow:hidden;
+	border-radius: 0px 0px 2px 2px;
+}
+
+.subitem{
+	height: inherit;
+	display: inline-block;
+}
+
+.subitem > a{
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	height: inherit;
+	display: block;
+	padding: 10px;
+	padding-top: 16px;
+	height: inherit;
+}
+
+.subitem > a:hover{
+	background-color: #757575;
+}
+
+/*Stile per il contenitore*/
+
+#content{
+	padding-top: 10px;
+	position: relative;
+	width: inherit;
+}

@@ -1,0 +1,131 @@
+/*CSS per gli articoli*/
+
+.post{
+	width:inherit;
+	overflow: hidden;
+	margin-bottom: 10px;
+	color: white;
+	border-radius: 2px;
+}
+
+.postContent{
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	padding: 10px;
+	background-color: #424242;
+}
+
+.postInfo{
+	height: 40px;
+	width: 100%;
+	position: relative;
+	background-color: #333333;
+}
+
+.postInfo *{
+	display: inline-block;
+}
+
+.postTags{
+	position: relative;
+	padding: 10px;
+	padding-top: 12px;
+	float: left;
+	height: inherit;
+}
+
+.postCounts{
+	position: relative;
+	margin-left: 10px;
+	float: left;
+	height: 40px;
+}
+
+.counts{
+	padding: 5px;
+	text-align: center;
+	height: 40px;
+	min-width: 45px;
+}
+
+.countIcon{
+	width: 20px;
+	height: 20px;
+	float:left;
+	margin-top: 6px;
+}
+
+.commentCount, .likeCount, .dislikeCount{
+	margin-left: 5px;
+	margin-top: 7px;
+	float: right;
+}
+
+.postLikesDislikes{
+	padding: 10px;
+	padding-top: 12px;
+	display: inline-block;
+	height: inherit;
+}
+
+
+/*Dettagli dell'articolo*/
+
+.postTitle, .postTitle *{
+	font-size: 20px;
+	display: block;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.postAuthor{
+	display:inline-block;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+.postDate{
+	display:inline-block;
+	padding: 5px;
+}
+
+.postTextPre{
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Stili per la visualizzazione del testo dell'articolo*/
+
+.bold{
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.italic{
+	font-style: italic;
+}
+
+a.postLink{
+	text-transform: uppercase;
+}
+
+q.postQuote{
+	text-transform: uppercase;
+}
+
+img.postImg{
+	width: auto;
+	height: auto;
+	border: 0;
+	max-width: 100%;
+	display: block;
+}

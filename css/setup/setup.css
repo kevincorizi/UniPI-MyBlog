@@ -1,0 +1,64 @@
+/*CSS per la pagina di configurazione iniziale*/
+
+body{
+	background-color: #2196F3;
+}
+
+/*Intestazione della pagina*/
+
+header {
+	position: relative;
+	width:inherit;
+	text-align:center;
+	height: auto;
+	line-height: 40px;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 20px #888;
+	padding: 10px;
+	min-width: 1000px;
+}
+
+header *{
+	width: 1000px;
+	margin: auto;
+	height: inherit;
+	line-height: inherit;
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-size: 40px;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+/*Contenuto della pagina*/
+#wrapper *{
+	display: block;
+}
+
+#blogPanel{
+	width: 495px;
+	float: left;
+	margin-right: 5px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#adminPanel{
+	width: 495px;
+	float: right;
+	margin-left: 5px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+#setup{
+	margin-bottom: 10px;
+}
+

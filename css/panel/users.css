@@ -1,0 +1,118 @@
+/*CSS per la visualizzazione degli utenti*/
+
+/*Stile per la visualizzazione di tutti gli utenti*/
+.userInfo{
+	width: 495px;
+	padding: 10px;
+	display: block;
+	float: left;
+	background-color: white;
+	border-radius: 2px;
+	box-shadow: 0 2px 1px #aaa;
+	margin-bottom: 10px;
+}
+
+.userInfo:nth-child(odd){
+	margin-right: 5px;
+}
+
+.userInfo:nth-child(even){
+	margin-left: 5px;
+}
+
+.profilePictureSmall{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	display: block;
+	float: left;
+	vertical-align: middle;
+}
+
+.userData{
+	height: inherit;
+	width: 375px;
+	padding-left: 10px;
+	display: block;
+	float: right;
+}
+
+/*Stile per il profilo del singolo utente*/
+
+.profile{
+	display: block;
+	position: relative;
+	margin: auto;
+	width: inherit;
+	height: 540px;
+	background-color: white;
+	box-shadow:0 1px 2px #aaa;
+	margin-bottom: 10px;
+}
+
+/*Stile della parte dati*/
+
+.profileData{
+	width: 350px;
+	height: inherit;
+	display: block;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.profileData > p{
+	font-size: 15px;
+	padding: 5px;
+}
+
+.profileData > p:nth-child(2){
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+.profileData > p:nth-child(3){
+	font-size: 25px;
+}
+
+/*Stili in base al ruolo*/
+
+.dataUser{
+	background-color: #2979FF;
+}
+
+.dataMod{
+	background-color: #64DD17;
+}
+
+.dataAdmin{
+	background-color: #F4511E;
+}
+
+/*Stile della parte attività*/
+
+.profileActivity{
+	width: 640px;
+	float: right;
+	padding: 20px;
+}
+
+.profileHeader{
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.activityList{
+	list-style: initial;
+	margin-left: 10px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+
+.activityItem{
+	font-size: 20px;
+	font-weight: lighter;
+}

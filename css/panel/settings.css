@@ -1,0 +1,38 @@
+/*CSS per le impostazioni nel pannello di controllo*/
+
+.settings{
+	overflow: hidden;
+	width: inherit;
+	position: relative;
+	margin: auto;
+}
+
+.categoryCard{
+	position: relative;
+	height: 100px;
+	width: 323px;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px #757575;
+}
+
+.categoryCard > p:first-child{
+	width: 250px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.categoryCard > img{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	top: 10px;
+	right: 10px;
+}

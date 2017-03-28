@@ -1,0 +1,50 @@
+/*CSS per l'iframe dell'editor di testo*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+
+body{
+	height: 100%;
+	width: inherit;
+}
+
+.postContent{
+	height: inherit;
+	width: inherit;
+}
+
+.postTextPre{
+	white-space: pre-wrap;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.italic{
+	font-style: italic;
+}
+
+a.postLink{
+	text-transform: uppercase;
+}
+
+q.postQuote{
+	text-transform: uppercase;
+}
+
+img.postImg{
+	width: auto;
+	height: auto;
+	border: 0;
+	max-width: 100%;
+}

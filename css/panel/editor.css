@@ -1,0 +1,73 @@
+/*CSS per la visualizzazione dell'editor*/
+
+#editor{
+	width: inherit;
+	height: 580px;
+	position: relative;
+	overflow: hidden;
+}
+
+#editor label{
+	text-align: left;
+}
+
+#mainEditor{
+	width: 770px;
+	display: block;
+	float: left;
+	margin: 10px;
+}
+
+#secondaryEditor{
+	width: 200px;
+	display: block;
+	float: left;
+	margin: 10px;
+	margin-left: 0px;
+}
+
+#writeBox{
+	width: 380px;
+	height: 520px;
+	overflow: hidden;
+	float: left;
+	margin-right: 10px;
+}
+
+#editorToolbox{
+	background-color: #616161;
+	height: 30px;
+}
+
+.textOption{
+	height: inherit;
+	width: 30px;
+	margin-right: 2px;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	background: none;
+	padding: 5px;
+}
+
+.textOption > img{
+	height: 20px;
+	width: 20px;
+}
+
+#editorText{
+	width: 380px;
+	height: 520px;
+	background-color: white;
+	padding: 5px;
+	border: 1px solid gray;
+	float: right;
+}
+
+#htmlText{
+	width: inherit;
+	height: 490px;
+	resize:none;
+	float: left;
+	padding: 5px;
+}

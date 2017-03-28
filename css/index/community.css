@@ -1,0 +1,176 @@
+/*Contiene il CSS relativo all'interazione tra utenti*/
+
+.postInteraction{
+	background-color: #333333;
+	width: inherit;
+	clear: both;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.communitySection{
+	font-size:18px;
+	font-weight: bold;
+}
+
+.postCommunity{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+/*Interazione con l'articolo*/
+
+.setLike, .setDislike{
+	height: 40px;
+	width: 380px;
+	display: inline-block;
+	border: none;
+	box-shadow: none;
+	color: white;
+}
+
+.setLike{
+	background-color: green;
+	margin-right: 10px;
+}
+
+.setDislike{
+	background-color: red;
+	margin-left: 10px;
+}
+
+.setLike:disabled{
+	background-color: gray;
+	cursor: default;
+}
+
+.setDislike:disabled{
+	background-color: gray;
+	cursor: default;
+}
+
+/*Invio di un nuovo commento*/
+
+.newComment{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.newComment > textarea{
+	display: inline-block;
+	resize: none;
+	height: auto;
+	min-height: 50px;
+	width: 690px;
+	padding: 5px;
+	font-size: 14px;
+	margin-top: 5px;
+	border-radius: 2px;
+	float: left;
+}
+
+.sendComment{
+	height: 50px;
+	width: 80px;
+	margin-top: 5px;
+	float: right;
+	background-color: #1499D3;
+	color: white;
+	border-bottom: 2px solid #1761E8;
+}
+
+.sendComment:hover{
+	background-color: #1761E8;
+	border-bottom: 2px solid #1499D3;
+}
+
+/*Area commenti*/
+
+.postComments{
+	clear: both;
+	padding-top: 10px;
+}
+
+.comment{
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	color: black;
+}
+
+.userPictureContainer{
+	position: relative;
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+.userPicture{
+	position: relative;
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+}
+
+.commentData{
+	display: inline-block;
+	float: left;
+	max-width: 650px;
+}
+
+.commentDate{
+	margin-bottom: 10px;
+}
+
+.commentCommunity{
+	float: right;
+	width: auto;
+	position: relative;
+}
+
+.commentCommunity > div{
+	overflow: hidden;
+}
+
+.count{
+	width: auto;
+	height: 50px;
+	display: inline-block;
+	float: right;
+	padding-left: 10px;
+
+}
+
+.commentCommunity button{
+	background-color: white;
+	float: left;
+}
+
+.commentCommunity button > img{
+	height: 20px;
+	width: 20px;
+}
+
+.deleteComment{
+	color: red;
+}
+
+.deleteComment:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
